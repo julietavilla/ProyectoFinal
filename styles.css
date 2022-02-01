@@ -45,7 +45,6 @@ footer {
 }
 
 main {
-    background-color: lightgray;
     display: flex;
     justify-content: center;
 }
@@ -88,6 +87,20 @@ footer {
 
 .titulo-off {
     margin: 0 auto;
+    padding: 20px;
+    animation: titulo-off 2s linear infinite;
+}
+
+@keyframes titulo-off {
+    from {
+        background-color: none;
+    }
+    50% {
+        background-color: violet;
+    }
+    to {
+        background-color: none;
+    }
 }
 
 .azul {
